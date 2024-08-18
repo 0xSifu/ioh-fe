@@ -1,0 +1,40 @@
+export interface Claim {
+    id: number;
+    dob: string;
+    insuranceNumber: string;
+    polisNumber: string;
+    memberNumber: string;
+    cardNumber: string;
+    memberName: string;
+    plafon: number;
+    paid: number;
+    noPks: string;
+    claimStatus: number;
+    limitAvailable: number;
+    dateBegin: string;
+    dateEnd: string;
+    claimNo: string;
+    customerName: string;
+    customerCode: string;
+    holdingName: string;
+    holdingCode: string;
+    planDetailCode: string;
+    planNameDetail: string;
+    paketCode: string;
+    paketName: string;
+    providerCode: string;
+    providerName: string;
+    claimDate: string;
+    admisionDate: string;
+    dischargeDate: string;
+    claimType: string;
+    remark: string;
+    totalPaid: number;
+    totalExcess: number;
+    totalClaim: number;
+    lastStatus: string;
+    diagnoseCode: string;
+    diagnoseDesc: string;
+    remarkMember: string;
+  }
+  

@@ -1,0 +1,53 @@
+{
+  "RootLayout": {
+    "title": "SaasHQ",
+    "description": "SaasHQ ist ein Open-Source-CRM, das auf NextJS aufbaut."
+  },
+  "ModuleMenu": {
+    "dashboard": "Armaturenbrett",
+    "crm": {
+      "title": "Handel",
+      "accounts": "Firmen",
+      "opportunities": "Möglichkeiten",
+      "contacts": "Kontakte",
+      "leads": "Leads"
+    },
+    "projects": "Projekte",
+    "emails": "E-mails",    
+    "tasks": "Aufgaben",
+    "invoices": "Rechnungen",
+    "reports": "Berichte",
+    "documents": "Dokumente",
+    "storage": "Speicher",
+    "settings": "Einstellungen"
+  },
+  "DashboardPage": {
+    "containerTitle": "Armaturenbrett",
+    "totalRevenue": "Gesamtumsatz",
+    "containerDescription": "Willkommen bei SaasHQ, hier können Sie alle wichtigen Informationen über Ihr Unternehmen sehen.",
+    "expectedRevenue": "Erwarteter Umsatz",
+    "activeUsers": "Aktive Benutzer",
+    "accounts": "Unternehmen",
+    "opportunities": "Angebote",
+    "contacts": "Kontakte",
+    "leads": "Leads",
+    "projects": "Projekte",
+    "tasks": "Aufgaben",
+    "myTasks": "Meine Aufgaben",
+    "invoices": "Rechnungen",
+    "documents": "Dokumente",
+    "storage": "Speicher"
+  },  
+  "RegisterComponent": {
+    "cardTitle": "Neuen Account erstellen",
+    "cardDescription": "Erstellen Sie ein Konto, indem Sie sich anmelden mit",
+    "label": "Sprache",
+    "locale": "{locale, select, de {Deutsch} en {Englisch} cz {Tschechisch} uk {Ukrainian} other {Unbekannt}}"
+  },
+  "CrmModuleMenuComponent": {
+    "menuTitle": "Verkäufe",
+    "cardDescription": "Erstellen Sie ein Konto, indem Sie sich anmelden mit",
+    "label": "Sprache",
+    "locale": "{locale, select, de {Deutsch} en {Englisch} cz {Tschechisch} uk {Ukrainian} other {Unbekannt}}"        
+  }  
+}
